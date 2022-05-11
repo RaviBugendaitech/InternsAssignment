@@ -1,0 +1,131 @@
+.main-container {
+    width: 100%;
+    height: 90%;
+    text-align: center;
+    background-color:#c6cdb2 ;
+  }
+  .round-container {
+    background-image: 
+    url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwallpaperaccess.com%2Flogin-hd&psig=AOvVaw2HgVn5GDNHPeYCQpW0jNlS&ust=1651753284469000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCNChvtDqxfcCFQAAAAAdAAAAABAK");
+    background-size: cover;
+    background-repeat:no-repeat; 
+    margin:auto;
+    margin-top: .8px;
+    padding: 3%;
+    font-size: 30px;
+    color:rgb(231, 236, 234);
+    border-radius: 450px;
+    width: 70%;
+    border: 2px solid #9c9f8b;
+  }
+  .set-bg{
+    width:50%;
+    background-color: #c6cdb2;
+    border-radius: 25px;
+    padding: 30px;
+  }
+  .shift-left {
+    padding-left: 35%;
+    text-align: left;
+  }
+  .email {
+    padding-bottom: 40px;
+    margin-top: 20px;
+    font-family: 'Roobert TRIAL';
+    color: #030303;
+    font-size: 18px;
+  }
+  .changepass {
+    font-family: 'Roobert TRIAL';
+    color: #030303;
+
+  }
+  .search-bar {
+    margin-top: 3px;
+    width: 100%;
+    font-family: 'Roobert TRIAL';
+  }
+  .search-bar input[type="text"] {
+    border-radius: 40px;
+    width: 90%;
+    height: 70px;
+    padding: 10px;
+    padding-left: 25px;
+    background-color: #c6cdb2;
+    margin-top: 15px;
+    margin-right: 8px;
+    border: 1px solid #030303;
+    font-size: 22px;
+  }
+  
+  .left-button {
+    padding: 25px;
+    width: 50%;
+    border-radius: 35px;
+    color:#030303;
+    background-color:#e4ff81;
+    padding-bottom: 3%;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 6%;
+    margin-left: 40;
+    cursor: pointer;
+    border: 1px solid #030303;
+  }
+  .arrows-back {
+    font-size: 60px;
+    color: black;
+  }
+  a:hover {
+    color: #3d3e37;
+  }
+  .login{
+    font-size: 30px;
+  }
+  
+  
+  @media screen and (max-width: 900px) {
+    .round-container {
+      border-radius: 100px;
+      
+      height: 500px;
+  
+    }
+    .set-bg{
+      font-size: 15px;
+      margin-top: 25px;
+      width:60%;
+      background-color: #c6cdb2;
+      border-radius: 25px;
+      padding: 20px;
+    }
+    .shift-left {
+      padding-left: 20%;
+      text-align: left;
+    }
+    .email {
+      padding-bottom: 15px;
+     
+    }
+    .search-bar {
+      width: 80%;
+    }
+    .search-bar input[type="text"] {
+      border-radius: 30px;
+      width: 80%;
+      height: 30px;
+      font-size: 15px;
+    }
+    .arrows-back {
+      font-size: 30px;
+      color: black;
+    }
+  
+    .left-button {
+      width: 60%;}
+  
+    .login{
+      font-size: 18px;
+    }
+  }

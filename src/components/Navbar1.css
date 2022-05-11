@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #c6cdb2;
+
+}
+.logo-img{
+  height: 2%;
+  width: 2%;
+  margin-top: 9px;
+}
+
+.header a {
+  float: left;
+  color: #0e0f0f;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.topnav-right a {
+  padding: 2;
+}
+.topnav-right img {
+  display: block;
+  width: 35px;
+  background-color: #c6cdb2;
+  height: 35px;
+  margin-top: 4%;
+}
+
+.topnav-right {
+  float: right;
+  font-family: 'Roobert TRIAL';
+  color: #030303;
+}
+
+a {
+  text-decoration: none;
+  color: #c6cdb2;
+}
+a:hover {
+  border-bottom: 3px solid #3d3e37;
+  
+}
+
+.navigation {
+ 
+  overflow: hidden;
+  text-align: center;
+  background-color: #c6cdb2;
+  font-family: 'Roobert TRIAL';
+  color: #030303;
+  display: flex;
+  text-decoration: overline 1px solid black;
+}
+.navigation a {
+  float:left;
+  display: block;
+  color: #030303;
+  text-align: center;
+  padding: 10px 380px 20px;
+  font-size: 30px;
+  font-family: 'Roobert TRIAL';
+  font-weight: 300;
+  text-decoration: none;
+  
+  
+}
+
+.naviagation a:hover {
+  background-color: #c6cdb2;
+  color: #3d3e37;
+}
+@media screen and (max-width: 1798px) {
+  .navigation a {
+    float: none;
+    width: 20%;
+    font-size: 30px;
+    padding: 1%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .navigation a {
+    float: none;
+    width: 100%;
+    font-size:15px;
+    padding: 1%;
+  }
+  .header a {
+    float: left;
+    color: #333738;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+  }
+}
